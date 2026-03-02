@@ -12,7 +12,7 @@ function App() {
         <SearchInput />
         <div>
           <Typography variant="h1">
-            Olá, Vinny!
+            Olá, Levi!
           </Typography>
           <Typography variant="body">
             Veja como estão suas finanças hoje.
