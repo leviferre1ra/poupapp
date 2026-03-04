@@ -20,16 +20,19 @@ export const Transactions = () => {
                 {items.map((transactionItem, index) => {
 
                     return (
-                    <li key={index}>
-                        <TransactionItem item={transactionItem} />
-                    </li>
-                )
+                        <li key={index}>
+                            <TransactionItem item={transactionItem} />
+                        </li>
+                    )
                 })}
             </ul>
 
-            <Button>
-                <IconCurrency /> Adicionar transação
-            </Button>
+            <div className={styles.actions}>
+                <Button>
+                    <IconCurrency /> Adicionar transação
+                </Button>
+            </div>
+
 
         </>
     )

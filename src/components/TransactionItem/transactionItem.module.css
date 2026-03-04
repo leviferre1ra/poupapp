@@ -1,6 +1,7 @@
 .transaction {
     display: flex;
     justify-content: space-between;
+    margin-inline: 16px;
 
 }
 
@@ -20,7 +21,11 @@
     gap: 8px;
     font-size: 15px;
     line-height: 120%;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+.valueItem {
+        font-weight: 400;
 }
 
 .income {

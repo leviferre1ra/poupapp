@@ -10,7 +10,7 @@ export const TransactionItem = ({ item }) => {
         <div className={styles.transaction}>
             <div className={[styles.details, detailsAddicionalClassName].join(' ')}>
                 <p>{item.description}</p>
-                <p>{formater.format(item.value)}</p>
+                <p className={styles.valueItem}>{formater.format(item.value)}</p>
             </div>
             <div className={styles.date}>
                 {new Date(item.date).toLocaleDateString('pt-BR')}
