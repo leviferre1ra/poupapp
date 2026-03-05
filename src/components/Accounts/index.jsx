@@ -24,6 +24,7 @@ export const Accounts = () => {
                 })}
             </ul>
 
+            <div className={styles.divider} />    
             <div className={styles.actions}>
                 <Button>
                     <IconWallet /> Adicionar conta

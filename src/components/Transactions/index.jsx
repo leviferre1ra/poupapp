@@ -27,6 +27,7 @@ export const Transactions = () => {
                 })}
             </ul>
 
+            <div className={styles.divider} />
             <div className={styles.actions}>
                 <Button>
                     <IconCurrency /> Adicionar transação

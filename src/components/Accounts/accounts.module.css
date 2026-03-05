@@ -17,6 +17,10 @@
     margin-bottom: 0;
 }
 
+.divider {
+    flex-grow: 1;
+}
+
 .actions{
     display: flex;
     justify-content: center;
